@@ -219,3 +219,22 @@ https://www.jianshu.com/p/6131cbe22bea
 從手機開啟
 
 ![image](./images/S47472643.jpg)
+
+# 創帶版本號的新項目
+
+```bash
+ npx react-native init react_native_demo --version 0.55.4
+
+```
+
+# 安裝WebView
+
+https://github.com/react-native-webview/react-native-webview/blob/HEAD/docs/Getting-Started.md
+
+```bash
+ npm install --save react-native-webview
+```
+
+```bash
+npx react-native link react-native-webview
+```
