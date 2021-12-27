@@ -167,9 +167,33 @@ adb devices
 
 # Genymotion
 
+手機模擬器
+
 ![image](./images/20211225143225.png)
 
 ![image](./images/20211225143347.png)
+
+![image](./images/20211227104744.png)
+
+需要註冊帳號
+
+![image](./images/20211227104751.png)
+
+建立一台虛擬機器
+
+![image](./images/20211227105417.png)
+
+![image](./images/20211227105538.png)
+
+![image](./images/20211227105710.png)
+
+提示bios虛擬機器要打開
+
+![image](./images/20211227110730.png)
+
+bios設定完成後，順利運行了
+
+![image](./images/20211227114939.png)
 
 # 創建項目
 
