@@ -262,3 +262,95 @@ https://github.com/react-native-webview/react-native-webview/blob/HEAD/docs/Gett
 ```bash
 npx react-native link react-native-webview
 ```
+
+# 創建項目lifeServices 
+
+```bash
+npx react-native init lifeServices
+```
+# React Navigation
+
+官網
+
+https://reactnavigation.org/docs/getting-started
+
+這邊有點坑，卡了很久，也看了很多文章，最後是靠英文官網的文檔一步一步，才完成，不過官方文檔在icon那邊的code有問題，我有再作修改
+
+
+安裝的相關依賴
+
+```bash
+npm uninstall react-navigation
+
+
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+npm install @react-navigation/bottom-tabs
+
+ 
+ npm i react-native-vector-icons
+```
+
+```bash
+npm i react-native-reanimated
+npm i react-native-swiper
+
+npm i react-navigation/drawer
+```
+
+## ICON網址
+
+https://oblador.github.io/react-native-vector-icons/
+
+# 數據請求網址
+
+```js
+http://txcourseapi.jsplusplus.com/
+http://txcourseapi.jsplusplus.com/course/v2/get_course_fields
+http://txcourseapi.jsplusplus.com/course/v2/get_course_datas
+http://txcourseapi.jsplusplus.com/course/v2/get_courses/55
+```
+
+# 網絡
+
+https://reactnative.cn/docs/network
+
+# 輪播圖
+
+```bash
+npm i react-native-swiper
+```
+
+
+# M1 Macbook 環境搭建
+
+參考資料
+
+https://reactnative.cn/docs/environment-setup
+
+## 實際安裝會碰到的問題解法
+
+https://zhuanlan.zhihu.com/p/356820165
+### 【笔记】Mac M1 搭建 React Native 环境
+
+
+
+https://www.jianshu.com/p/19094220ed2a
+### mac M1芯片 arm64架构 pod安装踩坑记录
+
+
+###
+https://blog.csdn.net/lihaoyuan_iOS/article/details/110947811
+### React Native 安裝 pod install 錯誤 Flipper-Glog C compiler cannot create executables
+
+https://jjnnykimo.pixnet.net/blog/post/49501205-react-native-%E5%AE%89%E8%A3%9D-pod-install-%E9%8C%AF%E8%AA%A4-flipper-glog-c-compil
+
+# M1 Macbook項目展示
+
+成功運行
+
+![image](./images/image20220102134852.png)
+
+![image](./images/image20220103214328.png)
+
